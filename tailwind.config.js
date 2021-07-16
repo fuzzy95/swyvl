@@ -23,7 +23,7 @@ module.exports = {
       yellow: colors.amber,
       green: '#22E5A3',
       blue: '#2431E0',
-      indigo: colors.indigo,
+      indigo: '#505ED8',
       purple: colors.violet,
       pink: colors.pink,
     },
@@ -48,6 +48,7 @@ module.exports = {
       12: '3rem',
       14: '3.5rem',
       16: '4rem',
+      19: '4.75rem',
       20: '5rem',
       24: '6rem',
       25: '6.25rem',
@@ -263,7 +264,7 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
-      gotham: ['Gotham', 'sans-serif'],
+      gotham: ['GothamPro', 'sans-serif'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -277,6 +278,7 @@ module.exports = {
       '5xl': ['3rem', { lineHeight: '1' }],
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1' }],
+      '5.25xl': ['5.25rem'],
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
@@ -498,6 +500,11 @@ module.exports = {
       8: '2rem',
       9: '2.25rem',
       10: '2.5rem',
+      12: '3rem',
+      16: '4rem',
+      20: '5rem',
+      24: '6rem',
+      25: '6.313rem',
     },
     listStyleType: {
       none: 'none',
@@ -1013,5 +1020,6 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
+
   plugins: [],
 };
