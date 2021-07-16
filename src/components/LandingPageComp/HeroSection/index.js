@@ -20,10 +20,10 @@ const HeroSection = () => {
           </div>
           <div className='relative mb-4 flex flex-col space-y-6 justify-center items-center w-full'>
             <label
-              for='email'
+              htmlFor='text'
               className='leading-7 text-lg text-black font-bold text-center'
             >
-              Get the latest news
+              <h3>Get the latest news</h3>
             </label>
             <div className='md:w-160 w-full flex items-center relative'>
               <input
