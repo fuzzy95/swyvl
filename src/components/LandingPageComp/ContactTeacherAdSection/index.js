@@ -19,7 +19,7 @@ const ContactTeacherAdSection = () => {
               </div>
             </div>
             <div className='md:w-1/2 w-full flex md:justify-end justify-center items-end'>
-              <img placeholder='text' src='' alt='text' />
+              <img placeholder='text' src='' alt='blueImage' />
             </div>
           </div>
         </div>

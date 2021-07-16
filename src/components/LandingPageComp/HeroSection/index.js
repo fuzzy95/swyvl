@@ -20,7 +20,7 @@ const HeroSection = () => {
           </div>
           <div className='relative mb-4 flex flex-col space-y-6 justify-center items-center w-full'>
             <label
-              htmlFor='text'
+              htmlFor='email'
               className='leading-7 text-lg text-black font-bold text-center'
             >
               <h3>Get the latest news</h3>
@@ -28,10 +28,11 @@ const HeroSection = () => {
             <div className='md:w-160 w-full flex items-center relative'>
               <input
                 style={{ outline: 'none' }}
-                type='text'
-                id='text'
-                name='text'
-                className='w-full bg-white rounded-full border-2 border-indigo focus:border-indig text-base h-16 pl-3 pr-56 leading-8 transition-colors duration-200 ease-in-out'
+                type='email'
+                id='email'
+                placeholder='email@example.com'
+                name='email'
+                className='w-full bg-white rounded-full border-2 border-indigo focus:border-indig text-base h-16 pl-6 pr-56 leading-8 transition-colors duration-200 ease-in-out'
               />
               <button
                 style={{ outline: 'none', right: '0%' }}
