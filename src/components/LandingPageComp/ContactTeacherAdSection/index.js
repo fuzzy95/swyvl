@@ -2,7 +2,7 @@ const ContactTeacherAdSection = () => {
   return (
     <>
       <div className='h-screen w-full bg-green'>
-        <div className='container mx-auto lg:px-24 px-8 h-full md:pt-0 pt-16'>
+        <div className='container mx-auto lg:px-24 px-6 h-full md:pt-0 pt-16'>
           <div className='flex md:flex-row flex-col justify-between items-center w-full h-full'>
             <div className='md:w-1/2 w-full flex flex-col space-y-16'>
               <div>

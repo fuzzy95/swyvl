@@ -2,7 +2,7 @@ const StudentAdSection = () => {
   return (
     <>
       <div className='h-screen w-full bg-blue text-white'>
-        <div className='container mx-auto lg:px-24 px-8 h-full md:pb-0 pb-16'>
+        <div className='container mx-auto lg:px-24 px-6 h-full md:pb-0 pb-16'>
           <div className='flex md:flex-row flex-col justify-between items-center w-full h-full'>
             <div className='md:w-1/2 w-full flex items-start'>
               <img placeholder='text' src='' alt='greenImage' />
