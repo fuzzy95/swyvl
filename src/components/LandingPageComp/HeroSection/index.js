@@ -32,11 +32,11 @@ const HeroSection = () => {
                 id='email'
                 placeholder='email@example.com'
                 name='email'
-                className='w-full bg-white rounded-full border-2 border-indigo focus:border-indig text-base h-16 pl-6 pr-56 leading-8 transition-colors duration-200 ease-in-out'
+                className='w-full bg-white rounded-full border-2 border-indigo focus:border-indig text-base md:h-16 h-12 pl-6 lg:pr-56 pr-32 leading-8 transition-colors duration-200 ease-in-out'
               />
               <button
                 style={{ outline: 'none', right: '0%' }}
-                className='capitalize rounded-full bg-indigo h-16 sm:w-52 w-40 text-white font-bold absolute'
+                className='capitalize rounded-full bg-indigo md:h-16 h-12 sm:w-52 w-30 text-white font-bold absolute lg:text-base text-sm'
               >
                 Subscribe
               </button>

@@ -5,3 +5,14 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.mobileShadow {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.mobileImage {
+  height: 1067px;
+}
