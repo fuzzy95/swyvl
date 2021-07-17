@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo-swyvl.svg';
+import logo from '../../assets/images/LOGOSYMBOL.svg';
 import { Icon } from '@iconify/react';
 import instagramOutlined from '@iconify-icons/ant-design/instagram-outlined';
 import twitterOutlined from '@iconify-icons/ant-design/twitter-outlined';

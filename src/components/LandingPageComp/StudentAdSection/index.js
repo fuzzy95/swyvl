@@ -1,13 +1,19 @@
+import LandingImage from '../../../assets/images/LANDING-IMG__2.svg';
+
 const StudentAdSection = () => {
   return (
     <>
-      <div className='h-screen w-full bg-blue text-white'>
-        <div className='container mx-auto lg:px-24 px-6 h-full md:pb-0 pb-16'>
-          <div className='flex md:flex-row flex-col justify-between items-center w-full h-full'>
+      <div className='xl:h-screen h-auto w-full bg-blue text-darlBlue'>
+        <div className='container mx-auto lg:px-24 px-6 h-full xl:pb-0 pb-16'>
+          <div className='flex md:flex-row flex-col justify-between items-start w-full h-full'>
             <div className='md:w-1/2 w-full flex items-start'>
-              <img placeholder='text' src='' alt='greenImage' />
+              <img
+                className='md:w-11/12 w-full'
+                src={LandingImage}
+                alt='greenImage'
+              />
             </div>
-            <div className='md:w-1/2 w-full flex flex-col space-y-16'>
+            <div className='md:w-1/2 h-full w-full flex justify-center flex-col xl:space-y-16 space-y-10  xl:pt-0 md:pt-20 pt-0 md:mt-0 mt-20'>
               <div>
                 <h1 className='font-bold lg:text-3.25xl text-5xl leading-16'>
                   Start to learn and <br className='lg:flex hidden' /> meet

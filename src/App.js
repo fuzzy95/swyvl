@@ -1,6 +1,9 @@
 import { Suspense } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import routes from './routes';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
